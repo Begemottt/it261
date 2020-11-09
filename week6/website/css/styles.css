@@ -1,0 +1,90 @@
+/* Styles for my new important website!!!!!!!! */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.active {
+    color: red;
+}
+
+.home{
+    background: beige;
+}
+
+.about{
+    background: #ddd;
+}
+
+.center {
+    text-align: center;
+}
+
+header{
+    margin-bottom: 20px;
+    background-color: orange;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+.inner-header{
+    width: 940px;
+    margin: 20px auto;
+}
+
+#logo{
+    width: 150px;
+    float: left;
+}
+
+nav ul{
+    float: right;
+    margin-top: 20px;
+}
+
+nav li{
+    float: left;
+    margin-left: 15px;
+    list-style-type: none;
+}
+
+#wrapper{
+    clear: both;
+    width: 940px;
+    margin: 0 auto;
+}
+
+footer {
+    height: 50px;
+    line-height: 50px;
+    border: 1px dotted tan;
+}
+
+footer li{
+    float: left;
+    margin-right: 30px;
+    list-style-type: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+blockquote {
+    font-size: 1.4em;
+    margin: 20px 100px 20px 20px;
+}
+
+.home h1{
+    font-size: 3em;
+    font-weight: 200;
+    margin-bottom: 12px;
+}
+
+h1{
+    font-size: 2em;
+    font-weight: 200;
+    margin-bottom: 9px;
+}
