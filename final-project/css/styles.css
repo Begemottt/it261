@@ -1,0 +1,240 @@
+/* Styles for the final project website: The Hunter Association */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Styles to affect EVERYTHING on the page */
+html{
+    background-color: #000;
+    color: white;
+}
+/* Limit the width of the page and center it on the screen */
+body{
+    width: 800px;
+    margin: auto;
+}
+
+/* Styles to make the active page look different in the nav bar */
+.active{
+    color: #fff;
+    background-color: red;
+    box-shadow: 4px 4px red;
+}
+
+/* Styles for the header. */
+header{
+    background-color: #fff;
+    color: #000;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+
+/* Style for the logo in the header */
+#logo{
+    width: 150px;
+    float: left;
+    padding: 10px;
+}
+ul#navigation{
+    margin-top: 20px;
+    margin-right: 10px;
+}
+nav li{
+    float: left;
+    margin-left: 15px;
+    list-style-type: none;
+    font-size: 1.5em;
+}
+nav a{
+    color: #000;
+    text-decoration: none;
+    border: 2px solid #000;
+    box-shadow: 4px 4px #000;
+    padding: 4px;
+}
+
+
+nav a:hover, nav a:focus, nav a:focus-within{
+    color: #fff;
+    background-color: #000;
+    border: 2px solid red;
+}
+
+/* Footer styles */
+footer {
+    height: 50px;
+    line-height: 50px;
+    border: 1px dotted #fff;
+}
+footer li{
+    float: left;
+    margin-right: 30px;
+    list-style-type: none;
+}
+
+/* Style for images, in general */
+img {
+    max-width: 100%;
+    display: block;
+    padding: 5px;
+    border: 1px solid #fff;
+    margin: 10px auto 10px auto;
+    box-shadow: 5px 5px 0px #fff;
+}
+
+/* Text styles! */
+h1{
+    font-size: 3em;
+    font-weight: 800;
+    margin-bottom: 12px;
+}
+h2{
+    font-size: 2em;
+    font-weight: 200;
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+p{
+    margin: 15px;
+    font-size: 1.5em;
+}
+/* Link styles */
+a{
+    color: red;
+    text-decoration: none;
+}
+a:hover, a:focus, a:focus-within{
+    color: #000;
+    background-color: #fff;
+    text-decoration: none;
+}
+
+div#login_text{
+    float: right;
+}
+
+/* Styles for the daily page */
+#advice{
+    font-style: italic;
+    padding-left: 12px;
+}
+#day_list{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+/* Styles for the compendium page */
+ul.demons{
+    list-style-type: none;
+    padding: 5px;
+    margin: 10px;
+    border: 2px solid red;
+}
+li.bold{
+    font-weight: 800;
+    font-size: 1.6em;
+    text-align: center;
+}
+li.subtitle{
+    font-size: 1.4em;
+    text-align: center;
+}
+img.thumb{
+    display: block;
+    height: 150px;
+}
+
+/* Styles for the demon detail page */
+ul#demon_detail{
+    margin: 10px 0px 10px 0px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+ul#demon_detail li{
+    background-color: #fff;
+    color: #000;
+    font-size: 1.3em;
+    padding: 5px;
+    box-shadow: 2px 2px red;
+}
+p#demon_description{
+    font-style: italic;
+    padding: 15px;
+    border: 1px solid red;
+}
+img#demon_detail{
+    width: 600px;
+}
+
+/* Form styles */
+
+form{
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 10px;
+}
+input[type=text],
+input[type=email], 
+input[type=telephone],
+input[type=password],  
+textarea{
+    width: 100%;
+    height: 30px;
+}
+input[type=submit],
+button{
+    padding: 6px;
+    width: 45%;
+}
+select{
+    width: 100%;
+    line-height: 20px;
+    padding: 10px;
+}
+textarea{
+    height: 120px;
+    margin-bottom: 20px;
+}
+fieldset{
+    color: #fff;
+    padding: 10px 15px 10px 10px;
+}
+label{
+    display: block;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: 800;
+}
+input, textarea, button{
+    margin: 8px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+}
+input:focus, textarea:focus{
+    outline: none;
+    border-right: 2px solid red;
+    border-bottom: 2px solid red;
+}
+fieldset ul{
+    list-style: none;
+}
+span{
+    color: red;
+    display: block;
+    font-size: 2em;
+    font-style: italic;
+}
+
+p.center{
+    text-align: center;
+}
